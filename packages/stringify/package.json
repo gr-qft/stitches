@@ -1,0 +1,36 @@
+{
+  "name": "@stitches/stringify",
+  "version": "0.1.5",
+  "description": "Converts an object into CSS",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "typings": "types/index.d.ts",
+  "jsdelivr": "dist/index.iife.js",
+  "unpkg": "dist/index.iife.js",
+  "exports": {
+    "require": "./dist/index.cjs",
+    "import": "./dist/index.mjs",
+    "default": "./dist/index.mjs"
+  },
+  "files": [
+    "dist",
+    "types"
+  ],
+  "sideEffects": false,
+  "license": "MIT",
+  "repository": "modulz/stitches",
+  "homepage": "https://github.com/modulz/stitches#readme",
+  "bugs": "https://github.com/modulz/stitches/issues",
+  "contributors": [
+    "Jonathan Neal <jonathan@modulz.app>",
+    "Pedro Duarte <pedro@modulz.app>",
+    "Abdulhadi Alhallak <abdulhadi@modulz.app>"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "css-in-js"
+  ]
+}

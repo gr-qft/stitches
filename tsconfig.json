@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
-    "lib": ["dom", "es2017"],
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["DOM", "ES2020"],
+    "jsx": "preserve",
     "preserveSymlinks": true,
     "moduleResolution": "node",
     "importHelpers": true,
@@ -11,7 +12,8 @@
     "sourceMap": true,
     "inlineSources": true,
     "resolveJsonModule": true,
-    "strict": true
+    "strict": true,
+    "skipLibCheck": true
   },
-  "exclude": ["node_modules", "dist", "es", "lib", "coverage"]
+  "exclude": ["node_modules", "dist"]
 }
